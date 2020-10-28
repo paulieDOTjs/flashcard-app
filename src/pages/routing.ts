@@ -1,4 +1,4 @@
-import MainPage from "./MainPage";
+import MainPage from "./mainPage/MainPage";
 
 interface pageObj {
   readonly title: string;

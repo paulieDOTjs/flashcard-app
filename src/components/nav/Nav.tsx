@@ -7,15 +7,11 @@ import { pages } from "../../pages/routing";
 function Nav() {
   return (
     <div className="Nav">
-      <ul>
-        {pages.map((page) => (
-          <li>
-            <Link key={page.title} to={page.url}>
-              {page.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      {pages.map((page) => (
+        <Link key={page.title + "Nav"} to={page.url}>
+          {page.title}
+        </Link>
+      ))}
     </div>
   );
 }

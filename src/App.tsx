@@ -1,16 +1,17 @@
 import React from "react";
+import "./bootstrap-grid.min.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
-import Nav from "./components/nav/Nav";
 import { pages } from "./pages/routing";
+
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Nav />
+        <Header />
         {pages.map((page) => (
-          <Route path={page.url} exact component={page.page} />
+          <Route key={page.title} path={page.url} exact component={page.page} />
         ))}
       </Router>
     </div>
