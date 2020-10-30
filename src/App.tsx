@@ -1,7 +1,7 @@
 import React from "react";
 import "./bootstrap-grid.min.css";
 import "./App.scss";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
 import { pages } from "./pages/routing";
 
 import Header from "./components/header/Header";
@@ -16,6 +16,9 @@ function App() {
         {pages.map((page) => (
           <Route key={page.title} path={page.url} exact component={page.page} />
         ))}
+        <Route exact path="/">
+          <Redirect to="/home" />
+        </Route>
       </Router>
     </div>
   );

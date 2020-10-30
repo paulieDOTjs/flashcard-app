@@ -1,4 +1,4 @@
-import MainPage from "./mainPage/MainPage";
+import HomePage from "./homePage/HomePage";
 import LoginPage from "./loginPage/LoginPage";
 
 interface pageObj {
@@ -10,8 +10,8 @@ interface pageObj {
 export const pages: pageObj[] = [
   {
     title: "Home",
-    url: "/",
-    page: MainPage,
+    url: "/home",
+    page: HomePage,
   },
   {
     title: "Login",

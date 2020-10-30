@@ -5,7 +5,15 @@
   justify-content: space-around;
   align-items: center;
   a {
+    font-weight: bolder;
+    color: #551b8b;
     text-decoration: none;
     font-size: 18px;
+    &:visited {
+      color: #551b8b;
+    }
+    &:hover {
+      color: hotpink;
+    }
   }
 }
