@@ -1,17 +1,27 @@
 .Nav {
-  height: 100%;
-  min-height: 50px;
+  min-height: 100%;
+  width: 34%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  border-left: black 2px solid;
+
   a {
-    font-weight: bolder;
     color: #551b8b;
+    font-weight: bolder;
     text-decoration: none;
     font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto 4px;
+    height: 50%;
+
     &:visited {
       color: #551b8b;
     }
+
     &:hover {
       color: hotpink;
     }

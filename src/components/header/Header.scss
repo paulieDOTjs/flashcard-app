@@ -4,7 +4,10 @@
   border-radius: 16px;
   background-color: rgba(117, 116, 117, 0.8);
 
-  .heading {
+  display: flex;
+
+  h1 {
     text-align: center;
+    width: 66%;
   }
 }

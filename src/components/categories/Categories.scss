@@ -7,16 +7,30 @@
     margin: 0;
     overflow-y: scroll;
     li {
-      border: grey 2px solid;
-      margin: 4px 0;
-      background-color: black;
-      list-style: none;
-      font-size: 20px;
-      padding: 8px 0;
-      text-align: center;
-      cursor: pointer;
-      &:hover {
-        color: hotpink;
+      width: 100%;
+      button {
+        width: 100%;
+        color: white;
+        border: grey 2px solid;
+        margin: 4px 0;
+        background-color: black;
+        list-style: none;
+        font-size: 20px;
+        padding: 8px 0;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+          color: hotpink;
+        }
+        &:active {
+          background-color: hotpink;
+          color: hotpink;
+        }
+        &:focus {
+          border: white;
+          font-weight: bolder;
+        }
       }
     }
   }

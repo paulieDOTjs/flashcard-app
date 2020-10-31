@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "name": "HTML",
+      "cards": [
+        {
+          "question": "What does HTML stand for?",
+          "answer": "Hypertext Markup Language"
+        }
+      ]
+    },
+    {
+      "name": "CSS",
+      "cards": [
+        {
+          "question": "What does CSS stand for?",
+          "answer": "Cascading Style Sheets"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "cards": [
+        {
+          "question": "When do you use 'var' to declare a variable?",
+          "answer": "NEVER! Don't do it. Never ever, ever, ever, ever use var"
+        }
+      ]
+    },
+    {
+      "name": "APIs",
+      "cards": [
+        {
+          "question": "What does API stand for?",
+          "answer": "Application Programming Interface"
+        }
+      ]
+    }
+  ]
+}
