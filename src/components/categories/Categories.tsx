@@ -27,11 +27,11 @@ function Categories(props: categoriesProps) {
     <div className="categories">
       <form>
         <ul>
-          <li>
+          {/* <li>
             <button data-name="All" onClick={handleClick}>
               All
             </button>
-          </li>
+          </li> */}
           {cards.map((card) => {
             return (
               <li key={card.name + "li"}>
