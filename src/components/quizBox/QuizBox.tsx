@@ -24,7 +24,7 @@ function QuizBox(props: quizBoxProps) {
 
   useEffect(() => {
     setCurrQ(0);
-  }, [props.cards]);
+  }, [props]);
 
   return (
     <div className="QuizBox">
