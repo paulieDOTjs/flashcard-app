@@ -4,10 +4,11 @@ import "./Header.scss";
 
 function Header() {
   return (
-    <div className="header">
+    <header>
       <h1>U of M Coding Bootcamp Flashcards</h1>
+
       <Nav />
-    </div>
+    </header>
   );
 }
 

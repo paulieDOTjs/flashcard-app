@@ -14,6 +14,7 @@ function Categories(props: categoriesProps) {
   );
 
   function handleClick(event: MouseEvent) {
+    event.preventDefault();
     const dataName: string | null = event.currentTarget.getAttribute(
       "data-name"
     );
@@ -24,26 +25,28 @@ function Categories(props: categoriesProps) {
 
   return (
     <div className="categories">
-      <ul>
-        <li>
-          <button data-name="All" onClick={handleClick}>
-            All
-          </button>
-        </li>
-        {cards.map((card) => {
-          return (
-            <li key={card.name + "li"}>
-              <button
-                data-name={card.name}
-                onClick={handleClick}
-                key={card.name + "btn"}
-              >
-                {card.name}
-              </button>
-            </li>
-          );
-        })}
-      </ul>
+      <form>
+        <ul>
+          <li>
+            <button data-name="All" onClick={handleClick}>
+              All
+            </button>
+          </li>
+          {cards.map((card) => {
+            return (
+              <li key={card.name + "li"}>
+                <button
+                  data-name={card.name}
+                  onClick={handleClick}
+                  key={card.name + "btn"}
+                >
+                  {card.name}
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </form>
     </div>
   );
 }

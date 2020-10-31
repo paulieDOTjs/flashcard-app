@@ -1,5 +1,5 @@
 .categories {
-  grid-column: 1 3;
+  min-height: 100%;
   border-right: grey 2px solid;
   padding-right: 8px;
   ul {
@@ -19,16 +19,15 @@
         padding: 8px 0;
         text-align: center;
         cursor: pointer;
-
         &:hover {
           color: hotpink;
         }
         &:active {
           background-color: hotpink;
-          color: hotpink;
         }
         &:focus {
-          border: white;
+          color: hotpink;
+          border: grey 2px solid;
           font-weight: bolder;
         }
       }

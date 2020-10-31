@@ -1,6 +1,50 @@
 .QuizBox {
+  height: 100%;
+  padding: 0 24px;
   h2 {
     margin: 0;
     text-align: center;
+  }
+  .card {
+    height: 50%;
+    margin: 24px 0;
+    background-color: rgb(225, 225, 225);
+    color: black;
+    min-height: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 24px;
+  }
+  div,
+  form {
+    min-height: 44px;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+    button {
+      padding: 4px;
+      width: 120px;
+      color: white;
+      border: grey 2px solid;
+      border-radius: 16px;
+      margin: 4px 0;
+      background-color: black;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        color: hotpink;
+      }
+      &:active {
+        background-color: hotpink;
+      }
+      &:focus {
+        color: hotpink;
+        border: grey 2px solid;
+        font-weight: bolder;
+      }
+    }
   }
 }

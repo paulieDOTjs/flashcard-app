@@ -15,6 +15,10 @@
         {
           "question": "What does CSS stand for?",
           "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "In CSS what type of selector begins with a '.'? For example '.start-button'.",
+          "answer": "This is a 'class selector.' It will select all elements with the class '.start-button'."
         }
       ]
     },
@@ -22,8 +26,8 @@
       "name": "JavaScript",
       "cards": [
         {
-          "question": "When do you use 'var' to declare a variable?",
-          "answer": "NEVER! Don't do it. Never ever, ever, ever, ever use var"
+          "question": "When should you use 'var' to declare a variable?",
+          "answer": "NEVER! Don't do it. Never ever, ever, ever, ever use var."
         }
       ]
     },

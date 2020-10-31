@@ -1,13 +1,16 @@
-.header {
+header {
   // margin-top: 24px;
   border: 2px black solid;
   border-radius: 16px;
-  background-color: rgba(117, 116, 117, 0.8);
+  background-color: rgb(225, 225, 225);
 
   display: flex;
 
+  // title {
+  //   font-size: 1000px;
   h1 {
     text-align: center;
     width: 66%;
   }
+  // }
 }
