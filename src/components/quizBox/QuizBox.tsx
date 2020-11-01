@@ -24,6 +24,7 @@ function QuizBox(props: quizBoxProps) {
 
   useEffect(() => {
     setCurrQ(0);
+    setShowAns(false);
   }, [props]);
 
   return (
