@@ -17,7 +17,6 @@ function HomePage() {
   const [cards, setCards] = useState<question[] | undefined>(undefined);
 
   useEffect(() => {
-    data.data.forEach((cat) => console.log(cat));
     if (category !== DEFAULT) {
       if (category === ALL) {
         const arr: question[] = [];

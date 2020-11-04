@@ -14,6 +14,26 @@
         {
           "question": "What method do you run with your JavaScript to search your HTML for an element, or several elements?",
           "answer": "document.querySelector('el') to select one or document.querySelectorAll('el') to get an array of elements."
+        },
+        {
+          "question": "Choose the correct HTML element for the largest heading: <strong>, <h1>, <head>, <h6>",
+          "answer": "<h1>"
+        },
+        {
+          "question": "What is the correct HTML element for inserting a line break? <br>, <lb>, <break>",
+          "answer": "<br>"
+        },
+        {
+          "question": "What is the correct HTML for adding a background color? START_CODE<body style=\"background-color:yellow;\"></body>\n\n<body bg=\"yellow\"></body>\n\n<background>yellow</background>END_CODE",
+          "answer": "START_CODE<body style=\"background-color:yellow;\"></body>END_CODE"
+        },
+        {
+          "question": "What is the correct HTML for creating a hyperlink?START_CODE<a url=\"https://paulhendricksondevelopment.com/\">Paul's Cool Website</a>\n\n<a href=\"https://paulhendricksondevelopment.com/\">Paul's Cool Website</a>\n\n<a name=\"https://paulhendricksondevelopment.com/\">Paul's Cool Website</a>\n\n<a>https://paulhendricksondevelopment.com/</a>END_CODE",
+          "answer": "START_CODE<a href=\"https://paulhendricksondevelopment.com/\">Paul's Cool Website</a>END_CODE"
+        },
+        {
+          "question": "What do you include in your anchor tag to open a link in a new tab/browser window?",
+          "answer": "target=\"_blank\" for example START_CODE\n<a href=\"https://paulhendricksondevelopment.com/\" target=\"_blank\">Paul's Cool Website</a>\n END_CODE"
         }
       ]
     },
@@ -38,7 +58,7 @@
           "answer": "NEVER! Don't do it. Never ever, ever, ever, ever use var."
         },
         {
-          "question": "What is the current value of 'x' in the following bit of code: START_CODEfunction returnNumber(y) {\n  return (y += 1);\n}\n\nx = returnNumber(3);END_CODE",
+          "question": "What is the current value of 'x' in the following bit of code: START_CODEfunction returnNumber(y) {\n return (y += 1);\n}\n\nx = returnNumber(3);END_CODE",
           "answer": "4"
         },
         {
@@ -47,7 +67,7 @@
         },
         {
           "question": "What do we call a function that is passed into another function as an argument?",
-          "answer": "A callback function. Here is an example: START_CODEmyArray.forEach(function(item){ \n console.log(item)\n)};END_CODE"
+          "answer": "A callback function. Here is an example: START_CODEmyArray.forEach(function(item){ \nconsole.log(item)\n)};END_CODE"
         },
         {
           "question": "When adding an object or array to local storage what function must you run for it not to come back as [Object object]?",
