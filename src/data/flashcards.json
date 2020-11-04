@@ -8,8 +8,8 @@
           "answer": "Hypertext Markup Language"
         },
         {
-          "question": "When using bootstrap what is the only acceptable class to follow a '.row' class accoring to their best practices?",
-          "answer": "Any form of a '.col' class. For example '.col-md-6', '.col-lg-2', '.col-12'"
+          "question": "When using bootstrap what is the only acceptable class to follow a \".row\" class accoring to their best practices?",
+          "answer": "Any form of a \".col\" class. For example \".col-md-6\", \".col-lg-2\", \".col-12\""
         },
 
         {
@@ -42,8 +42,8 @@
           "answer": "Cascading Style Sheets"
         },
         {
-          "question": "In CSS what type of selector begins with a '.'? For example '.start-button'.",
-          "answer": "This is a 'class selector.' It will select all elements with the class '.start-button'."
+          "question": "In CSS what type of selector begins with a \".\"? For example \".start-button\".",
+          "answer": "This is a \"class selector.\" It will select all elements with the class \".start-button\"."
         }
       ]
     },
@@ -51,16 +51,16 @@
       "name": "JavaScript",
       "cards": [
         {
-          "question": "When should you use 'var' to declare a variable?",
+          "question": "When should you use \"var\" to declare a variable?",
           "answer": "NEVER! Don't do it. Never ever, ever, ever, ever use var."
         },
         {
-          "question": "What is the current value of 'x' in the following bit of code: START_CODEfunction returnNumber(y) {\n return (y += 1);\n}\n\nx = returnNumber(3);END_CODE",
+          "question": "What is the current value of \"x\" in the following bit of code: START_CODEfunction returnNumber(y) {\n return (y += 1);\n}\n\nx = returnNumber(3);END_CODE",
           "answer": "4"
         },
         {
           "question": "What do we add to a button so that an action can be performed upon clicking said button?",
-          "answer": "An event listener. Specifcally, a 'click' event listener."
+          "answer": "An event listener. Specifcally, a \"click\" event listener."
         },
         {
           "question": "What do we call a function that is passed into another function as an argument?",
@@ -68,11 +68,19 @@
         },
         {
           "question": "When adding an object or array to local storage what function must you run for it not to come back as [Object object]?",
-          "answer": "JSON.stringify(arg). For example: START_CODElet arr = [ 1, 2, 3, 4, 5];\nlet stringified = JSON.stringify(arr);\nwindow.localstorage.setItem('myArray', stringified);END_CODE"
+          "answer": "JSON.stringify(arg). For example: START_CODElet arr = [ 1, 2, 3, 4, 5];\nlet stringified = JSON.stringify(arr);\nwindow.localstorage.setItem(\"myArray\", stringified);END_CODE"
+        },
+        {
+          "question": "What method do you call to turn JSON into workable JavaScript?",
+          "answer": "JSON.parse(json)."
+        },
+        {
+          "question": "Describe the layout of a for loop.",
+          "answer": "Therea are three conditions in a for loop and a code block that define what operations are performed. START_CODEfor(let i = 0; i < arr.length; i++){\n console.log(arr[i]);\n}END_CODE The first condition \"let i = 0\" is executed once before the code block is performed. The second condition \"i < arr.length\" defines the condition under which the codeblock runs, when this condition is false the for loop stops. The third condition \"i++\" is run after EVERY execution of the code block, and should change the a variable defined in the first condition so that the second condition will eventually become false. In this case it is increasing i by one until eventually i becomes equal to arr.length causing the for loop to stop. Finally the codeblock itself (\"console.log(arr[i])\" is the code that gets run during every iteration until the condition in the second statement is no longer true."
         },
         {
           "question": "What method do you run with your JavaScript to search your HTML for an element, or several elements?",
-          "answer": "document.querySelector('el') to select one or document.querySelectorAll('el') to get an array of elements."
+          "answer": "document.querySelector(\"el\") to select a single element or document.querySelectorAll(\"el\") to get an array of elements."
         }
       ]
     },
@@ -86,6 +94,10 @@
         {
           "question": "How does one access a web API?",
           "answer": "Through an HTTP request. These can be GET, POST, PUT, DELETE, and UPDATE requests and very often throuh a package like ajax, axios, or node fetch."
+        },
+        {
+          "question": "What is CORS and why will you learn to hate it?",
+          "answer": "Cross-Origin Resource Sharing, it is meant to protect you from cross-site scripting attacks, but you will very often run into issues with it. A very common fix is including \"https://\" before your url but that does not always work, depending on the API."
         }
       ]
     }
