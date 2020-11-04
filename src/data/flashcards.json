@@ -6,6 +6,10 @@
         {
           "question": "What does HTML stand for?",
           "answer": "Hypertext Markup Language"
+        },
+        {
+          "question": "When using bootstrap what is the only acceptable class to follow a '.row' class accoring to their best practices?",
+          "answer": "Any form of a '.col' class. For example '.col-md-6', '.col-lg-2', '.col-12'"
         }
       ]
     },
@@ -32,6 +36,18 @@
         {
           "question": "What is the current value of 'x' in the following bit of code: START_CODEfunction returnNumber(y) {\n  return (y += 1);\n}\n\nx = returnNumber(3);END_CODE",
           "answer": "4"
+        },
+        {
+          "question": "What do we add to a button so that an action can be performed upon clicking said button?",
+          "answer": "An event listener. Specifcally, a 'click' event listener."
+        },
+        {
+          "question": "What do we call a function that is passed into another function as an argument?",
+          "answer": "A callback function. Here is an example: START_CODEmyArray.forEach(function(item){ \n console.log(item)\n)};END_CODE"
+        },
+        {
+          "question": "When adding an object or to local storage what function must you run for it now to come back as [Object object]?",
+          "answer": "JSON.stringify(arg). For example: START_CODElet arr = [ 1, 2, 3, 4, 5];\nlet stringified = JSON.stringify(arr);\nwindow.localstorage.setItem('myArray', stringified);END_CODE"
         }
       ]
     },
