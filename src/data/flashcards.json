@@ -11,10 +11,7 @@
           "question": "When using bootstrap what is the only acceptable class to follow a '.row' class accoring to their best practices?",
           "answer": "Any form of a '.col' class. For example '.col-md-6', '.col-lg-2', '.col-12'"
         },
-        {
-          "question": "What method do you run with your JavaScript to search your HTML for an element, or several elements?",
-          "answer": "document.querySelector('el') to select one or document.querySelectorAll('el') to get an array of elements."
-        },
+
         {
           "question": "Choose the correct HTML element for the largest heading: <strong>, <h1>, <head>, <h6>",
           "answer": "<h1>"
@@ -72,6 +69,10 @@
         {
           "question": "When adding an object or array to local storage what function must you run for it not to come back as [Object object]?",
           "answer": "JSON.stringify(arg). For example: START_CODElet arr = [ 1, 2, 3, 4, 5];\nlet stringified = JSON.stringify(arr);\nwindow.localstorage.setItem('myArray', stringified);END_CODE"
+        },
+        {
+          "question": "What method do you run with your JavaScript to search your HTML for an element, or several elements?",
+          "answer": "document.querySelector('el') to select one or document.querySelectorAll('el') to get an array of elements."
         }
       ]
     },
