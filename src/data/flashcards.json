@@ -10,6 +10,10 @@
         {
           "question": "When using bootstrap what is the only acceptable class to follow a '.row' class accoring to their best practices?",
           "answer": "Any form of a '.col' class. For example '.col-md-6', '.col-lg-2', '.col-12'"
+        },
+        {
+          "question": "What method do you run with your JavaScript to search your HTML for an element, or several elements?",
+          "answer": "document.querySelector('el') to select one or document.querySelectorAll('el') to get an array of elements."
         }
       ]
     },
@@ -46,7 +50,7 @@
           "answer": "A callback function. Here is an example: START_CODEmyArray.forEach(function(item){ \n console.log(item)\n)};END_CODE"
         },
         {
-          "question": "When adding an object or to local storage what function must you run for it now to come back as [Object object]?",
+          "question": "When adding an object or array to local storage what function must you run for it now to come back as [Object object]?",
           "answer": "JSON.stringify(arg). For example: START_CODElet arr = [ 1, 2, 3, 4, 5];\nlet stringified = JSON.stringify(arr);\nwindow.localstorage.setItem('myArray', stringified);END_CODE"
         }
       ]
@@ -57,6 +61,10 @@
         {
           "question": "What does API stand for?",
           "answer": "Application Programming Interface"
+        },
+        {
+          "question": "How does one access a web API?",
+          "answer": "Through an HTTP request. These can be GET, POST, PUT, DELETE, and UPDATE requests and very often throuh a package like ajax, axios, or node fetch."
         }
       ]
     }

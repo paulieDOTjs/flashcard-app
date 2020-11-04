@@ -37,9 +37,10 @@ function QuizBox(props: quizBoxProps) {
   return (
     <div className="QuizBox">
       <h2>{props.category}</h2>
+      {/* This is the Question/Answer button. */}
       {props.cards !== undefined && props.cards.length > currQ ? (
         <button id="revealBtn" className="quizBtn" onClick={handleReveal}>
-          Reveal
+          {showAns ? "Question" : "Answer"}
         </button>
       ) : (
         <div></div>

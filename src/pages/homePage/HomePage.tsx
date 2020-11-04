@@ -9,14 +9,22 @@ import { question } from "../../data/dataInterfaces";
 
 import QuizBox from "src/components/quizBox/QuizBox";
 
+const DEFAULT = "Pick a category";
+const ALL = "All";
+
 function HomePage() {
-  const [category, setCategory] = useState<string | undefined>(
-    "Pick a category"
-  );
+  const [category, setCategory] = useState<string | undefined>(DEFAULT);
   const [cards, setCards] = useState<question[] | undefined>(undefined);
 
   useEffect(() => {
-    if (category) {
+    data.data.forEach((cat) => console.log(cat));
+    if (category !== DEFAULT) {
+      if (category === ALL) {
+        const arr: question[] = [];
+        data.data.forEach((category) => arr.push(...category.cards));
+        setCards(arr.sort(() => Math.random() - 0.5));
+      }
+
       const categ = find(data.data, function (obj) {
         return obj.name === category;
       });
@@ -30,7 +38,7 @@ function HomePage() {
     <div className="homePage">
       <div className="row">
         <div className="col-4 sidebar">
-          <Categories data={data.data} setCategory={setCategory} />
+          <Categories all={ALL} data={data.data} setCategory={setCategory} />
         </div>
         <div className="col-8">
           <QuizBox category={category} cards={cards} />

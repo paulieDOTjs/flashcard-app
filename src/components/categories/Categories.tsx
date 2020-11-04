@@ -4,6 +4,7 @@ import "./Categories.scss";
 import { category } from "../../data/dataInterfaces";
 
 interface categoriesProps {
+  all: string;
   data: category[];
   setCategory: Dispatch<SetStateAction<string | undefined>>;
 }
@@ -27,11 +28,11 @@ function Categories(props: categoriesProps) {
     <div className="categories">
       <form>
         <ul>
-          {/* <li>
-            <button data-name="All" onClick={handleClick}>
-              All
+          <li>
+            <button data-name={props.all} onClick={handleClick}>
+              {props.all}
             </button>
-          </li> */}
+          </li>
           {cards.map((card) => {
             return (
               <li key={card.name + "li"}>
