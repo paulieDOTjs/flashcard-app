@@ -28,6 +28,10 @@
         {
           "question": "When should you use 'var' to declare a variable?",
           "answer": "NEVER! Don't do it. Never ever, ever, ever, ever use var."
+        },
+        {
+          "question": "What is the current value of 'x' in the following bit of code: START_CODEfunction returnNumber(y) {\n  return (y += 1);\n}\n\nx = returnNumber(3);END_CODE",
+          "answer": "4"
         }
       ]
     },
