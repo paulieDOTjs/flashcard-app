@@ -44,6 +44,18 @@
         {
           "question": "In CSS what type of selector begins with a \".\"? For example \".start-button\".",
           "answer": "This is a \"class selector.\" It will select all elements with the class \".start-button\"."
+        },
+        {
+          "question": "In CSS what type of selector begins with a '#'? For example '#unique-btn'.",
+          "answer": "This is a 'id selector.' It will select the first element with the id '#unique-btn'. You should only use each id once."
+        },
+        {
+          "question": "If you declare a class or id twice in the same CSS file and they have different properties, which declaration overwrites the other?",
+          "answer": "Neither, they morph together like the PowerRangers to form the Megazord."
+        },
+        {
+          "question": "If you declare a class or id twice in the same CSS file and they have the same properties, which declaration overwrites the other?",
+          "answer": "The second one. The most recent declaration always takes precedence"
         }
       ]
     },
