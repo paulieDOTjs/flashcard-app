@@ -93,6 +93,18 @@
         {
           "question": "What method do you run with your JavaScript to search your HTML for an element, or several elements?",
           "answer": "document.querySelector(\"el\") to select a single element or document.querySelectorAll(\"el\") to get an array of elements."
+        },
+        {
+          "question": "What is a reserved word?",
+          "answer": "A reserved word is a word that cannot be used for variables, labels, or function names. Some examples include for, if, return, while."
+        },
+        {
+          "question": "What is the difference between a function and a method?",
+          "answer": "A function is a set of instructions that perform a task. A method is a set of instructions that perform a task and are associated with an object. A method is essentially a function that is contained within an object."
+        },
+        {
+          "question": "How are jQuery and JavaScript related?",
+          "answer": "JavaScript is a coding language. jQuery is a JavaScript library, meaning it is wrote using JavaScript. jQuery is intended to simplify HTML DOM tree traversal/manipulation, event handling, CSS animation, and Ajax. It is important to remeber that jQuery is JavaScript. They are not separate languages."
         }
       ]
     },
