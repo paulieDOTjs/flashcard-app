@@ -31,6 +31,14 @@
         {
           "question": "What do you include in your anchor tag to open a link in a new tab/browser window?",
           "answer": "target=\"_blank\" for example START_CODE\n<a href=\"https://paulhendricksondevelopment.com/\" target=\"_blank\">Paul's Cool Website</a>\n END_CODE"
+        },
+        {
+          "question": "What is a semantic HTML element?",
+          "answer": "An HTML element used to define different parts of a web page. They behave exactly like a div HTML element, but allow you to clearly define the purpose of the div. Some examples are <header>, <main>, <footer>, <nav>."
+        },
+        {
+          "question": "What is the HTML tag <link> commonly used to accomplish?",
+          "answer": "The HTML tag <link> is most commonly used to link/connect to an external style sheet (a file containing CSS code)."
         }
       ]
     },
