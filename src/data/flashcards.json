@@ -31,6 +31,14 @@
         {
           "question": "What do you include in your anchor tag to open a link in a new tab/browser window?",
           "answer": "target=\"_blank\" for example START_CODE\n<a href=\"https://paulhendricksondevelopment.com/\" target=\"_blank\">Paul's Cool Website</a>\n END_CODE"
+        },
+        {
+          "question": "What is a semantic HTML element?",
+          "answer": "An HTML element used to define different parts of a web page. They behave exactly like a div HTML element, but allow you to clearly define the purpose of the div. Some examples are <header>, <main>, <footer>, <nav>."
+        },
+        {
+          "question": "What is the HTML tag <link> commonly used to accomplish?",
+          "answer": "The HTML tag <link> is most commonly used to link/connect to an external style sheet (a file containing CSS code)."
         }
       ]
     },
@@ -88,11 +96,23 @@
         },
         {
           "question": "Describe the layout of a for loop.",
-          "answer": "Therea are three conditions in a for loop and a code block that define what operations are performed. START_CODEfor(let i = 0; i < arr.length; i++){\n console.log(arr[i]);\n}END_CODE The first condition \"let i = 0\" is executed once before the code block is performed. The second condition \"i < arr.length\" defines the condition under which the codeblock runs, when this condition is false the for loop stops. The third condition \"i++\" is run after EVERY execution of the code block, and should change the a variable defined in the first condition so that the second condition will eventually become false. In this case it is increasing i by one until eventually i becomes equal to arr.length causing the for loop to stop. Finally the codeblock itself (\"console.log(arr[i])\" is the code that gets run during every iteration until the condition in the second statement is no longer true."
+          "answer": "There are three conditions in a for loop and a code block that define what operations are performed. START_CODEfor(let i = 0; i < arr.length; i++){\n console.log(arr[i]);\n}END_CODE The first condition \"let i = 0\" is executed once before the code block is performed. The second condition \"i < arr.length\" defines the condition under which the codeblock runs, when this condition is false the for loop stops. The third condition \"i++\" is run after EVERY execution of the code block, and should change the a variable defined in the first condition so that the second condition will eventually become false. In this case it is increasing i by one until eventually i becomes equal to arr.length causing the for loop to stop. Finally the codeblock itself (\"console.log(arr[i])\" is the code that gets run during every iteration until the condition in the second statement is no longer true."
         },
         {
           "question": "What method do you run with your JavaScript to search your HTML for an element, or several elements?",
           "answer": "document.querySelector(\"el\") to select a single element or document.querySelectorAll(\"el\") to get an array of elements."
+        },
+        {
+          "question": "What is a reserved word?",
+          "answer": "A reserved word is a word that cannot be used for variables, labels, or function names. Some examples include for, if, return, while."
+        },
+        {
+          "question": "What is the difference between a function and a method?",
+          "answer": "A function is a set of instructions that perform a task. A method is a set of instructions that perform a task and are associated with an object. A method is essentially a function that is contained within an object."
+        },
+        {
+          "question": "How are jQuery and JavaScript related?",
+          "answer": "JavaScript is a coding language. jQuery is a JavaScript library, meaning it is wrote using JavaScript. jQuery is intended to simplify HTML DOM tree traversal/manipulation, event handling, CSS animation, and Ajax. It is important to remeber that jQuery is JavaScript. They are not separate languages."
         }
       ]
     },
