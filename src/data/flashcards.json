@@ -111,6 +111,10 @@
           "answer": "A function is a set of instructions that perform a task. A method is a set of instructions that perform a task and are associated with an object. A method is essentially a function that is contained within an object."
         },
         {
+          "question": "What two arguments are required for localStorage.setItem()",
+          "answer": "Key (where you're saving the information) and value (the thing being saved). "
+        },
+        {
           "question": "How are jQuery and JavaScript related?",
           "answer": "JavaScript is a coding language. jQuery is a JavaScript library, meaning it is wrote using JavaScript. jQuery is intended to simplify HTML DOM tree traversal/manipulation, event handling, CSS animation, and Ajax. It is important to remeber that jQuery is JavaScript. They are not separate languages."
         }
