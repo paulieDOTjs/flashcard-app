@@ -112,11 +112,19 @@
         },
         {
           "question": "What two arguments are required for localStorage.setItem()",
-          "answer": "Key (where you're saving the information) and value (the thing being saved). "
+          "answer": "Key (where you're saving the information) and value (the thing being saved)."
         },
         {
-          "question": "Who is the best TA?",
-          "answer": "Jake"
+          "question": "What does the array.reduce() method do?",
+          "answer": "It reduces the array to a single value. It takes a callback function as its argument that directs HOW it gets reduced to a single value."
+        },
+        {
+          "question": "What does the array.forEach() method do?",
+          "answer": "It is like a for loop. It goes through each index in the array and performs an action. It takes a callback function as its argument that directs what it does with each of those items in the array."
+        },
+        {
+          "question": "What does the array.map() method do?",
+          "answer": "It creates a new array from the old array with the items having been modified. It takes a callback function as its argument that directs how it modifies the original values. START_CODEconst arr = [1, 2, 3];\nconst arrMod = arr.map(num => num + 1);\nconsole.log(arrMod)\n//[2, 3, 4]END_CODE"
         },
         {
           "question": "How are jQuery and JavaScript related?",
