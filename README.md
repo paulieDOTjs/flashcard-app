@@ -1,5 +1,1 @@
 # flashcard app
-
-## thigns
-
-## stuff
